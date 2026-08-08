@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>iPhone 17 Pro Max | Venta</title>
+
+  <!-- Model Viewer -->
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <!-- Librería para generar el código QR -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+  </script>
+
+  <style>
+    :root {
+      --negro: #111111;
+      --blanco: #ffffff;
+      --silver: #d9d9d9;
+      --gris: #f4f4f4;
+      --naranja: #e87922;
+      --texto: #222222;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--gris);
+      color: var(--texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--negro);
+      color: var(--blanco);
+      padding: 18px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+    }
+
+    .contenedor {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    .hero {
+      background: var(--blanco);
+      margin: 30px auto;
+      border-radius: 20px;
+      padding: 35px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .informacion h2 {
+      font-size: 2.6rem;
+      color: var(--negro);
+      margin-bottom: 10px;
+    }
+
+    .subtitulo {
+      color: #666;
+      font-size: 1.15rem;
+      margin-bottom: 20px;
+    }
+
+    .descripcion {
+      margin-bottom: 20px;
+    }
+
+    .beneficios {
+      list-style: none;
+      margin: 20px 0;
+    }
+
+    .beneficios li {
+      margin: 10px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .beneficios li::before {
+      content: "✓";
+      color: var(--naranja);
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+
+    .precio-anterior {
+      color: #888;
+      text-decoration: line-through;
+      font-size: 1.1rem;
+    }
+
+    .precio {
+      color: var(--naranja);
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 5px 0 20px;
+    }
+
+    .visor {
+      background: linear-gradient(145deg, #eeeeee, #ffffff);
+      border-radius: 18px;
+      overflow: hidden;
+      min-height: 520px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 520px;
+      background-color: #f2f2f2;
+    }
+
+    .boton-ra {
+      background: var(--naranja);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 14px 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .boton-ra:hover {
+      background: #c95f12;
+    }
+
+    .boton-compra {
+      display: inline-block;
+      background: var(--negro);
+      color: var(--blanco);
+      text-decoration: none;
+      padding: 15px 28px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .boton-compra:hover {
+      background: var(--naranja);
+    }
+
+    .seccion-qr {
+      background: var(--blanco);
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+    }
+
+    .seccion-qr h3 {
+      margin-bottom: 10px;
+    }
+
+    #qrcode {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    footer {
+      background: var(--negro);
+      color: var(--blanco);
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 800px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 20px;
+      }
+
+      .informacion h2 {
+        font-size: 2rem;
+      }
+
+      .visor {
+        min-height: 400px;
+      }
+
+      model-viewer {
+        height: 400px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>VENTA DE IPHONE</h1>
+  </header>
+
+  <main class="contenedor">
+
+    <section class="hero">
+
+      <div class="informacion">
+
+        <h2>iPhone 17 Pro Max</h2>
+
+        <p class="subtitulo">
+          Elegancia, tecnología y rendimiento en un diseño Silver.
+        </p>
+
+        <p class="descripcion">
+          Descubre el hermoso iPhone 17 Pro Max en color Silver,
+          con una maravillosa cámara y un excelente rendimiento
+          de batería para acompañarte durante el día.
+        </p>
+
+        <ul class="beneficios">
+          <li>Diseño elegante en color Silver</li>
+          <li>Cámara de gran calidad</li>
+          <li>Excelente rendimiento de batería</li>
+          <li>Experiencia premium</li>
+        </ul>
+
+        <p class="precio-anterior">
+          Antes: $6.999.999 COP
+        </p>
+
+        <p class="precio">
+          Ahora: $6.799.000 COP
+        </p>
+
+        <a
+          class="boton-compra"
+          href="https://co.tiendasishop.com/products/iphone-17-pro-mfym4lz-a?_pos=1&_sid=39a2b232e&_ss=r"
+          target="_blank"
+          rel="noopener noreferrer">
+          Comprar ahora
+        </a>
+
+      </div>
+
+      <div class="visor">
+
+        <model-viewer
+          src="modelo.glb"
+          alt="Modelo 3D del iPhone 17 Pro Max"
+          camera-controls
+          auto-rotate
+          shadow-intensity="1"
+          ar
+          ar-modes="webxr scene-viewer quick-look">
+
+          <button
+            slot="ar-button"
+            class="boton-ra">
+            Ver en mi espacio
+          </button>
+
+        </model-viewer>
+
+      </div>
+
+    </section>
+
+    <section class="seccion-qr">
+
+      <h3>Explora esta experiencia WebAR</h3>
+
+      <p>
+        Escanea el código QR con tu celular para abrir
+        la experiencia desde la URL pública.
+      </p>
+
+      <div id="qrcode"></div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>iPhone 17 Pro Max · Experiencia WebAR</p>
+  </footer>
+
+  <script>
+    /*
+      El QR utiliza la URL actual de la página.
+      Cuando publiques el proyecto en GitHub Pages,
+      el QR apuntará automáticamente a esa URL pública.
+    */
+    window.addEventListener("load", function () {
+
+      const urlPublica = window.location.href;
+
+      new QRCode(document.getElementById("qrcode"), {
+        text: urlPublica,
+        width: 180,
+        height: 180,
+        colorDark: "#111111",
+        colorLight: "#ffffff",
+        correctLevel: QRCode.CorrectLevel.H
+      });
+
+    });
+  </script>
+
+</body>
+</html>
